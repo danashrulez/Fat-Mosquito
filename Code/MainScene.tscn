@@ -1,0 +1,208 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://skinbottom.tscn" type="PackedScene" id=1]
+[ext_resource path="res://skinmiddle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://skinlanding.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=5]
+[ext_resource path="res://MainScene.gd" type="Script" id=6]
+[ext_resource path="res://UI.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Sounds/fatmosquito.wav" type="AudioStream" id=8]
+[ext_resource path="res://Assets/mainskin2.png" type="Texture" id=9]
+[ext_resource path="res://Assets/mainskin.png" type="Texture" id=10]
+[ext_resource path="res://Assets/background.png" type="Texture" id=11]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="bgm" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 320, 240 )
+stream = ExtResource( 8 )
+attenuation = 2.37841
+
+[node name="background" type="TextureRect" parent="."]
+margin_right = 640.0
+margin_bottom = 232.0
+texture = ExtResource( 11 )
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="skinlanding" parent="." instance=ExtResource( 4 )]
+position = Vector2( 32, 384 )
+
+[node name="skinlanding2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 96, 384 )
+
+[node name="skinlanding3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 160, 384 )
+
+[node name="skinlanding4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 224, 384 )
+
+[node name="skinlanding5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 288, 384 )
+
+[node name="skinlanding6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 352, 384 )
+
+[node name="skinlanding7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 416, 384 )
+
+[node name="skinlanding8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 480, 384 )
+
+[node name="skinlanding9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 544, 384 )
+
+[node name="skinlanding10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 384 )
+
+[node name="skinmiddle11" parent="." instance=ExtResource( 3 )]
+margin_top = 288.0
+margin_right = 64.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle12" parent="." instance=ExtResource( 3 )]
+margin_left = 64.0
+margin_top = 288.0
+margin_right = 128.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle13" parent="." instance=ExtResource( 3 )]
+margin_left = 128.0
+margin_top = 288.0
+margin_right = 192.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle14" parent="." instance=ExtResource( 3 )]
+margin_left = 192.0
+margin_top = 288.0
+margin_right = 256.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle15" parent="." instance=ExtResource( 3 )]
+margin_left = 256.0
+margin_top = 288.0
+margin_right = 320.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle16" parent="." instance=ExtResource( 3 )]
+margin_left = 320.0
+margin_top = 288.0
+margin_right = 384.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle17" parent="." instance=ExtResource( 3 )]
+margin_left = 384.0
+margin_top = 288.0
+margin_right = 448.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle18" parent="." instance=ExtResource( 3 )]
+margin_left = 448.0
+margin_top = 288.0
+margin_right = 512.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle19" parent="." instance=ExtResource( 3 )]
+margin_left = 512.0
+margin_top = 288.0
+margin_right = 576.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinmiddle20" parent="." instance=ExtResource( 3 )]
+margin_left = 576.0
+margin_top = 288.0
+margin_right = 640.0
+margin_bottom = 352.0
+texture = ExtResource( 9 )
+
+[node name="skinbottom" parent="." instance=ExtResource( 1 )]
+margin_top = 416.0
+margin_right = 64.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom2" parent="." instance=ExtResource( 1 )]
+margin_left = 320.0
+margin_top = 416.0
+margin_right = 384.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom3" parent="." instance=ExtResource( 1 )]
+margin_left = 64.0
+margin_top = 416.0
+margin_right = 128.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom4" parent="." instance=ExtResource( 1 )]
+margin_left = 128.0
+margin_top = 416.0
+margin_right = 192.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom5" parent="." instance=ExtResource( 1 )]
+margin_left = 192.0
+margin_top = 416.0
+margin_right = 256.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom6" parent="." instance=ExtResource( 1 )]
+margin_left = 256.0
+margin_top = 416.0
+margin_right = 320.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom7" parent="." instance=ExtResource( 1 )]
+margin_left = 576.0
+margin_top = 416.0
+margin_right = 640.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom8" parent="." instance=ExtResource( 1 )]
+margin_left = 384.0
+margin_top = 416.0
+margin_right = 448.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom9" parent="." instance=ExtResource( 1 )]
+margin_left = 448.0
+margin_top = 416.0
+margin_right = 512.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="skinbottom10" parent="." instance=ExtResource( 1 )]
+margin_left = 512.0
+margin_top = 416.0
+margin_right = 576.0
+margin_bottom = 480.0
+texture = ExtResource( 10 )
+
+[node name="Player" parent="." instance=ExtResource( 5 )]
+position = Vector2( 120, 184 )
+
+[node name="Enemy_Spawn_Timer" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="UI" parent="." instance=ExtResource( 7 )]
+
+[connection signal="timeout" from="Enemy_Spawn_Timer" to="." method="_on_Enemy_Spawn_Timer_timeout"]

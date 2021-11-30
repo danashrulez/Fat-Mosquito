@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://upheave_font.tres" type="DynamicFont" id=1]
+
+[node name="Main Menu" type="Button"]
+margin_top = 50.0
+margin_right = 158.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 1 )
+text = "Main Menu"
+__meta__ = {
+"_edit_use_anchors_": false
+}
